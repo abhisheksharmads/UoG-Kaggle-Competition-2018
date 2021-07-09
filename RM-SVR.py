@@ -49,7 +49,7 @@ x_pred = svc2.predict(X_train)
 acc_score3 = accuracy_score(y_train, x_pred)
 acc_score2 = accuracy_score(target_test, y_pred2)
 
-print('SVM Test Accuracy:  ', acc_score2)
-print('SVM Train Accuracy:  ', acc_score3)
+print('SVR Test Accuracy:  ', acc_score2)
+print('SVR Train Accuracy:  ', acc_score3)
 
 
